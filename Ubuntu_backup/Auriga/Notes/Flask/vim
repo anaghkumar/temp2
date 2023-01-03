@@ -1,0 +1,24 @@
+:q -> quit from file
+:wq -> save and quit
+:q! -> don't save and quit
+i  -> insert into the file
+I -> insert at the beginning of the line 
+a - insert (append) after the cursor 
+A - insert (append) at the end of the line 
+o - append (open) a new line below the current line 
+O - append (open) a new line above the current line
+ea - insert (append) at the end of the word
+Ctrl + h - delete the character before the cursor during insert mode
+Ctrl + w - delete word before the cursor during insert mode 
+0 - jump to the start of the line 
+$ - jump to the end of the line 
+b - jump backwards to the start of a word 
+dd - delete a line
+u - undo
+gg - to go to top
+G - to bottom
+ctrl+R - Redo
+10 dd - Delete 10 line of code
+V - visual model for selection purpose
+
+ 

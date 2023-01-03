@@ -1,0 +1,8 @@
+request.query_params is a more correctly named synonym for request.GET
+
+Objective.objects.filter(session=2).exclude(id__in=[37,42,43]).values("id")
+
+https://github.com/MicroPyramid/Django-CRM/blob/master/common/tasks.py
+
+https://github.com/MicroPyramid/Django-CRM
+

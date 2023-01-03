@@ -1,0 +1,60 @@
+SECRET_KEY = "django-insecure-d#9c8^*u*o=ef)5#6bhg+4v2ohytroqejw!h-=dw=nmy3^5y9l"
+DEBUG = "False"
+
+ENGINE = "django.db.backends.mysql"
+#------------------Production-------------------------
+# DBNAME = "flamesdb1"
+# DBUSER = "root_flames"
+# PASSWORD = "8vfbv747S4C7i8q"
+# HOST = "68.178.145.31"
+# PORT = "3306"
+#-----------------------------------------------------
+
+#----------------Local---------------------------
+DBNAME = "flames1"
+DBUSER = "anagh"
+PASSWORD = "anagh1234"
+HOST = "127.0.0.1"
+PORT = "3306"
+#-----------------------------------------------------
+
+
+# RAZOR_KEY_ID = "rzp_test_IwuAiSIpfCG3AL"
+# RAZOR_KEY_SECRET = "wexCtcAxcFcBr7pY1s0KElC1"
+
+# Main Live Key
+RAZOR_KEY_ID = "rzp_live_UmqYo5n5PNFdMu"
+RAZOR_KEY_SECRET = "pa8hsrqRPSDzMzrkZUMzt9QF"
+
+# Test Key
+# RAZOR_KEY_ID = "rzp_test_PrfvJ04MaODGOg"
+# RAZOR_KEY_SECRET = "8E3yjsoezGFekyRbbFRQymkv"
+
+
+your_client_id = "698763201266-pvspaomtu1t1l1ji1816osp72kgrbj6j.apps.googleusercontent.com"
+your_client_secret = "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"
+root_password = "root1234"
+anagh_password = "anagh1234"
+
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = 'anagh9931@gmail.com'
+EMAIL_HOST_PASSWORD = 'hipnfrjgleciotpf'
+
+# python manage.py dumpdata home.homepage > fixtures/homepage.json
+# python manage.py loaddata specific_file.json
+# ifconfig -a
+# python manage.py runserver 192.168.179.62: 8000
+
+# user : root
+# password : 8vfbv747S4C7i8q
+# db_base: flamesdb1
+
+# shanu - 9129hjsdbsd@dnsdsnds
+
+
+# Local Admin - anagh@co.in pass-1
+https://www.flamesclat.com/static/coverimages/registration/super40.jpeg

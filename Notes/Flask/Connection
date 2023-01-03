@@ -1,0 +1,11 @@
+Password Containing @ or special char in mysql or postgress 
+convert it 
+
+>>> import urllib.parse
+>>> urllib.parse.quote_plus("kx%jj5/g")
+'kx%25jj5%2Fg'
+
+postgresql+pg8000://dbuser:kx%25jj5%2Fg@pghost10/appdb
+
+tar -xzf postman-9.15.2-linux-x64
+sudo dpkg -i pakage.deb

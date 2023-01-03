@@ -1,0 +1,21 @@
+PYCHARM SHORTCUTS
+--------------------
+double shift -> Search files , Class , all
+ctrl shift -> Recent Files
+ctrl+shift+N -> search file
+Ctrl + F - Search in a specific file
+Ctrl + G – Navigate to a line with the specified number in the current file
+Ctrl + Shift + Z– Redo the operation done.
+Ctrl + W – Extend your Selection
+Ctrl +N- Jump to a class in the project with specified name.
+
+Shift + F10- Run
+Shift + F9- Debug
+Alt + 5- Activate debug window
+Ctrl + D -- Comparing two files
+Ctrl + Alt + O- Optimize imports
+Ctrl + F12- Shows the file structure
+You can add your own shortcuts by using:
+Ctrl + Alt + S? Keymap
+
+-- Tabnine AI code Completion

@@ -1,0 +1,21 @@
+sudo service any_service (status/restart/start/stop)
+sudo fuser -k PORT/tcp
+sudo fuser -k 80/tcp
+sudo systemctl restart nginx
+sudo apt-get purge nginx nginx-common
+
+
+Docker Kill
+- sudo systemctl restart docker.socket docker.service
+- sudo aa-remove-unknown
+- sudo docker-compose down
+- COMPOSE_HTTP_TIMEOUT=200 docker-compose up
+
+-  docker exec -it 7ae kill 1
+
+
+
+
+apparmor_parser -r -W docker.profile
+apparmor_parser -r -W /proc/self/attr/apparmor/exec
+sudo apparmor_parser -r -W /proc/self/attr/apparmor/exec

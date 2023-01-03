@@ -1,0 +1,26 @@
+---------------------------------------------------------
+28-Sept-2022
+-------------
+comment cross 
+title cross
+status- Draft,submitted,accept,decline
+- draft + declined + accepted can be edited
+
+- accepted/decline/submit/draft
+- if status is not draft make it submitted in update
+
+-  {{url}}api/review/update-objective-status/53/
+- is_editable - cross
+- manager_suggestion - cross
+- current sessison api - cross
+- created_at - cross
+- updated_at - cross
+
+----------------------------------------------------------
+29-Sept-2022
+------------
+- Freeze Objective Too 
+- Add is_freeze_objective
+- Trigger Mail Service
+--------------------------------------------
+

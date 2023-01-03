@@ -1,0 +1,31 @@
+pytest test_any.py -rA
+
+# Run specific function
+pytest test_any.py -rA -k login
+
+
+# Run all function having login in name
+pytest -rA -k login
+
+# Getting Additional Info
+pytest -rA -k login -v
+pytest -rA -v
+
+
+# Help
+pytest -h
+
+-k "String"
+-v "verbose"
+
+@pytest.smoke
+def test_rs():
+    print("API WORKING FINE")
+
+Command- pytest nameOffile.py -m "marker_name"
+	 pytest nameOffile.py -m "smoke"
+
+# Generate HTML report
+ pytest --html=test_report.html
+
+

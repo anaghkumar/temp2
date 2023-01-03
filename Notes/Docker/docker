@@ -1,0 +1,8 @@
+docker ps
+docker images
+docker container run -d -e MYSQL_ROOT_PASSWORD=1234 -p 3307:3306 mysql
+sudo docker exec -it [container_name] bash
+docker inspect contaianer_id
+
+docker exec -it ubuntu_bash bash
+

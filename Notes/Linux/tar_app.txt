@@ -1,0 +1,22 @@
+$ tar -xjvf FileZilla_3.29.0_x86_64-linux-gnu.tar.bz2
+
+$ sudo rm -rf /opt/filezilla*
+
+$ sudo mv FileZilla3 /opt/filezilla3
+
+$ sudo ln -sf /opt/filezilla3/bin/filezilla /usr/bin/filezilla
+
+### Create a shortcut icon to show FileZilla in ubuntu applications menu
+
+$ vim ~/.local/share/applications/Filezilla.desktop
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Exec=/opt/filezilla3/bin/filezilla
+Name=Filezilla
+Comment=Filezilla
+Icon=/opt/filezilla3/share/icons/hicolor/480x480/apps/filezilla.png
+
+
+LINK : https://tektriks.com/how-to-install-latest-version-of-filezilla-client-from-tar-bz2-in-ubuntu-linux/

@@ -1,0 +1,14 @@
+sudo apt-cache policy python(version)
+
+Check what python versions are available on your systems:
+ls /usr/bin/python*
+
+sudo update-alternatives --list python
+- link : https://www.how2shout.com/linux/install-python-3-9-or-3-8-on-ubuntu-22-04-lts-jammy-jellyfish/
+*
+* sudo update-alternatives --config python
+* Change by number
+* virtualenv --python=/usr/bin/python3.9 venv 
+
+
+https://askubuntu.com/questions/1268833/error-command-path-to-env-bin-python3-7-im-ensurepip-upgrade

@@ -1,0 +1,16 @@
+docker inspect {c_id}
+# Build - 
+docker build -t django-container .
+
+#Run on Docker - 
+docker container run -p 8001:8000 -d django-container
+
+#kill Port on container
+docker kill {container_id}
+
+
+# Reaload docker
+sudo systemctl daemon-reload
+sudo systemctl restart docker
+
+docker image rm -f {contaienr_id}

@@ -1,0 +1,26 @@
+Node Version >= 16.0
+- https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04
+
+Register on Saleor Cloud and Setting Up Locally
+- https://cloud.saleor.io/
+- npm i -g @saleor/cli
+- sudo login
+- saleor storefront create --demo
+
+TECH USED
+- Graphql : https://docs.graphene-python.org/projects/django/en/latest/
+- django
+- typescript
+
+
+DOC
+- Graphql enable declarative data-fetching
+	- Rest - multiple endpoints that return fixed data structure
+- expose single endpoint
+- Respon with precise data for client request
+- https://github.com/veryacademy/YT-GraphQL-Django-Get-Started
+- https://graphql.org/learn/queries/
+
+
+cd /etc/apt/apt.conf.d
+cat proxy.conf
